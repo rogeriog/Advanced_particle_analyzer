@@ -1,4 +1,6 @@
-<img src="APA_logo.jpg" alt="Advanced Particle Analyzer Logo" width="200">
+<p align="center">
+  <img src="APA_logo.jpg" alt="Advanced Particle Analyzer Logo" width="600">
+</p>
 
 # Advanced Particle Analyzer
 
