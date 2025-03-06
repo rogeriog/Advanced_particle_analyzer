@@ -1,0 +1,74 @@
+{
+    "Noise Reduction": {
+        "Method": "None",
+        "Gaussian Kernel Size": null,
+        "Gaussian Sigma": null,
+        "Median Kernel Size": null,
+        "Bilateral Diameter": null,
+        "Bilateral Sigma Color": null,
+        "Bilateral Sigma Space": null
+    },
+    "Contrast Enhancement": {
+        "Method": "CLAHE",
+        "CLAHE Clip Limit": 2.0,
+        "CLAHE Tile Grid Size": 5
+    },
+    "Morphological Operations": {
+        "Operation": "Dilation",
+        "Kernel Size": 7
+    },
+    "Thresholding Edge Detection": {
+        "Method": "Canny Edge Detection",
+        "Canny Thresholds": [
+            35,
+            151
+        ],
+        "Adaptive Method": null,
+        "Adaptive Block Size": null,
+        "Adaptive Constant": null,
+        "Sobel Kernel Size": null
+    },
+    "Edge Enhancement": {
+        "Method": "None",
+        "LoG Kernel Size": null,
+        "LoG Sigma": null
+    },
+    "Hough Circle Transform": {
+        "Enabled": false,
+        "dp": null,
+        "Min Distance": null,
+        "Param1": null,
+        "Param2": null,
+        "Min Radius": null,
+        "Max Radius": null
+    },
+    "Contour Filtering": {
+        "Shape-Based": {
+            "Enabled": false,
+            "Min Circularity": null
+        },
+        "Perimeter Based": {
+            "Enabled": true,
+            "Min Perimeter": 160
+        },
+        "Area-Based": {
+            "Enabled": true,
+            "Min Area": 1
+        }
+    },
+    "Scale Parameters": {
+        "Use Diameter Distribution": true,
+        "Pixel Scale": 0.1
+    },
+    "Histogram Settings": {
+        "Number of Bins": 20,
+        "Use Custom Range": false,
+        "Min Range": null,
+        "Max Range": null
+    },
+    "Contour Approximation": {
+        "Enabled": false,
+        "Epsilon": null
+    },
+    "Particle Count": 278
+}
