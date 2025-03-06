@@ -90,25 +90,6 @@ An interactive Streamlit application for advanced analysis of particle images fr
 
    Check out the `examples` folder, which includes usage examples for TEM and SEM image analysis.
 
-## Contributing
-
-Contributions, bug reports, and feature requests are welcome! To contribute:
-
-1. Fork the repository.
-2. Create a new branch:
-   ```
-   git checkout -b feature/my-feature
-   ```
-3. Commit your changes:
-   ```
-   git commit -m 'Add some feature'
-   ```
-4. Push the branch:
-   ```
-   git push origin feature/my-feature
-   ```
-5. Open a pull request.
-
 ## License
 
 This project is licensed under the MIT License – see the [LICENSE](LICENSE) file for details.
